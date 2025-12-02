@@ -2,6 +2,20 @@
 
 Built to provide personal repo's with a list of spanish to english words and phrases that can be used to generate questions to learn either english or spanish, training models (as is the case of the data from our creditors), and quick translation lookups.
 
+# How to use?
+
+Simply install, `npm install spanish-english-json`, require the library and the data should be all your's:
+
+```javascript
+const data = require('spanish-english-json');
+
+console.log(data) // {
+// sentences: ...
+// verbs: ...
+// words: ...
+// }
+```
+
 ## Structure
 
 The structure of the json information reflects the structure of the data of our creditors, we have `sentences`, `verbs`, and `words`. 
