@@ -1,6 +1,6 @@
 # Spanish to English JSON
 
-This is a Spanish to English and English to Spanish Dictionary and Sentence Database with over 13,000 sentences and 8,900 words. Built to provide repo's with a list of spanish to english words and phrases that can be used to generate questions to learn english or spanish, train models (as is the case of the data from our creditors), and provide quick translation lookups. Network requests are not required since the data is all located in the library and there are *no dependencies*, so you're only downloading the data when installing this library.
+This is a Spanish to English and English to Spanish Dictionary and Sentence Database with over 13,000 sentences and 8,900 words. Built to provide repo's with a list of spanish to english words and phrases that can be used to generate questions to learn english or spanish, train models (as is the case of the data from our creditors), and provide quick translation lookups. Network requests are not required since the data is all located in the library and there are *no dependencies*, so you're only downloading the data when installing this library. 
 
 # How to use?
 
