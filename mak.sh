@@ -90,6 +90,8 @@ rm temp-word-es-en.json;
 #############################
 #############################
 
-git add .; git commit -m "Updated new data"; git push
-npm version patch
-npm publish
+if [[ `git status --porcelain` ]]; then
+	git add .; git commit -m "Updated new data"; git push
+	npm version patch
+	npm publish	
+fi
