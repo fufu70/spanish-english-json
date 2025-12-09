@@ -94,4 +94,6 @@ if [[ `git status --porcelain` ]]; then
 	git add .; git commit -m "Updated new data"; git push
 	npm version patch
 	npm publish	
+else
+	echo "No Change";
 fi
